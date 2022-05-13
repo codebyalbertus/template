@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'DB_WEBVIEW',
+        title: 'WEBVIEW',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,
@@ -19,3 +19,5 @@ class MyApp extends StatelessWidget {
         home: const HomeScreen());
   }
 }
+
+// Ganti Link: lib -> constants -> link.dart
